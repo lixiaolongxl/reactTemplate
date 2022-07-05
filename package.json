@@ -1,0 +1,69 @@
+{
+  "name": "antd-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^28.1.3",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@types/react-router-dom": "^5.3.3",
+    "antd": "4.21.3",
+    "axios": "^0.27.2",
+    "craco-less": "^1.20.0",
+    "craco-vtk": "^1.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "typescript": "^4.7.4",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start FAST_REFRESH=true",
+    "build": "set GENERATE_SOURCEMAP=false &&  craco build",
+    "analyzer": "env NODE_ENV=production BUILD_ANALYZER=true yarn start",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "antd-dayjs-webpack-plugin": "^1.0.6",
+    "babel-plugin-import": "^1.13.3",
+    "circular-dependency-plugin": "^5.2.2",
+    "compression-webpack-plugin": "5.0.1",
+    "core-js": "3",
+    "craco-fast-refresh": "^1.1.0",
+    "craco-plugin-react-hot-reload": "^0.1.0",
+    "simple-progress-webpack-plugin": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-dashboard": "^3.3.6"
+  }
+}

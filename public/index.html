@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <script src="https://cdn.bootcdn.net/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+    window.requestAnimationFrame =
+      window.requestAnimationFrame ||
+      function (fn) {
+        return setTimeout(fn, 1000 / 60);
+      };
+    window.cancelAnimationFrame = window.cancelAnimationFrame || clearTimeout;
+  </script>
+  <!--[if lte IE 9
+    ]><script>
+      window.location.href =
+        "https://support.dmeng.net/upgrade-your-browser.html?referrer=" +
+        encodeURIComponent(window.location.href);
+    </script><!
+  [endif]-->
+  <script>
+    /*@cc_on document.write('\x3Cscript id="_iealwn_js" src="https://support.dmeng.net/ie-alert-warning/latest.js">\x3C/script>'); @*/
+  </script>
+</html>
